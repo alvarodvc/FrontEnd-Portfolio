@@ -1,0 +1,35 @@
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 40px;
+    margin-right: 8px;
+}
+.fondoredes{
+    background-color: rgb(22, 22, 22);
+    border-radius: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 0.5em;
+    align-items: center;
+    
+}
+/* Para vista de celular */
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+}

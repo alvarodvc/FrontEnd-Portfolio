@@ -1,0 +1,20 @@
+.row {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+footer {
+  color: #5a5a5a;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 1px -1px 2px rgb(121, 120, 120);
+  padding: 20px;
+}
+.link{
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.link:hover,link:active{
+  text-decoration: underline;
+}
