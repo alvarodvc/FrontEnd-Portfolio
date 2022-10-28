@@ -1,17 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-<<<<<<< HEAD
 import { environment } from 'src/environments/environment';
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 import { persona } from '../model/persona.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PersonaService {
-<<<<<<< HEAD
   detail(arg0: number) {
     throw new Error('Method not implemented.');
   }
@@ -38,13 +34,4 @@ export class PersonaService {
   /*public delete(id: number): Observable<any>{
     return this.httpClient.delete<any>(this.URL + `delete/${id}`);
   }*/
-=======
-  URL = 'https://bckendalvaro.herokuapp.com/personas/';
-
-  constructor(private http: HttpClient) { }
-
-  public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+ 'traer/perfil')
-  }
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 }

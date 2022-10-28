@@ -1,10 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-<<<<<<< HEAD
 import { environment } from 'src/environments/environment';
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 import { JwtDto } from '../model/jwt-dto';
 import { LoginUsuario } from '../model/login-usuario';
 import { NuevoUsuario } from '../model/nuevo-usuario';
@@ -13,11 +10,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-<<<<<<< HEAD
   authURL = environment.URL + 'auth/';
-=======
-  authURL = 'https://bckendalvaro.herokuapp.com/auth/';
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 
   constructor(private httpClient: HttpClient) { }
 

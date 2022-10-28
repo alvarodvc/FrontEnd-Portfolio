@@ -27,13 +27,10 @@ import { NewproyectoComponent } from './components/proyecto/newproyecto.componen
 import { EditproyectoComponent } from './components/proyecto/editproyecto.component';
 import { NewskillComponent } from './components/skills/newskill.component';
 import { EditskillComponent } from './components/skills/editskill.component';
-<<<<<<< HEAD
 import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 
 @NgModule({
   declarations: [
@@ -56,25 +53,17 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     NewproyectoComponent,
     EditproyectoComponent,
     NewskillComponent,
-<<<<<<< HEAD
     EditskillComponent,
     EditAcercaDeComponent
-=======
-    EditskillComponent
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-<<<<<<< HEAD
     FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideStorage(() => getStorage())
-=======
-    FormsModule
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
   ],
   providers: [
     interceptorProvider

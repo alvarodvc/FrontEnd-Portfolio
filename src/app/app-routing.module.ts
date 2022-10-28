@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-<<<<<<< HEAD
 import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
@@ -26,10 +23,7 @@ const routes: Routes = [
   {path:'editpro/:id', component: EditproyectoComponent},
   {path:'nuevaskill', component: NewskillComponent},
   {path:'editskill/:id', component: EditskillComponent},
-<<<<<<< HEAD
   {path:'editacercade/:id', component: EditAcercaDeComponent},
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 ];
 
 @NgModule({

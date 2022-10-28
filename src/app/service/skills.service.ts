@@ -1,21 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-<<<<<<< HEAD
 import { environment } from 'src/environments/environment';
-=======
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 import { Skills } from '../model/skills';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SkillsService {
-<<<<<<< HEAD
   URL = environment.URL + 'skills/';
-=======
-  URL = 'https://bckendalvaro.herokuapp.com/skills/';
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 
   constructor(private httpClient : HttpClient) { }
 
