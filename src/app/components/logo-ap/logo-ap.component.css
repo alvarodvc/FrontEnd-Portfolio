@@ -6,7 +6,11 @@ img{
     margin-right: 8px;
 }
 .fondoredes{
+<<<<<<< HEAD
     background-color: rgb(22, 22, 22);
+=======
+    background-color: rgb(25, 25, 25);
+>>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
     border-radius: 80px;
 }
 .container{

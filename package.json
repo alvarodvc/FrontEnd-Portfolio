@@ -14,7 +14,10 @@
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
+<<<<<<< HEAD
     "@angular/fire": "^7.4.1",
+=======
+>>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
     "@angular/forms": "^14.0.0",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
@@ -38,4 +41,8 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299

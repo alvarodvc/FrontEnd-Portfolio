@@ -1,4 +1,5 @@
 export const environment = {
+<<<<<<< HEAD
   firebase: {
     projectId: 'frontendalva',
     appId: '1:380683179630:web:5bcd6b8fc75b69b3aa387f',
@@ -10,4 +11,7 @@ export const environment = {
   },
   production: true,
   URL: 'https://bckendalvaro.herokuapp.com/'
+=======
+  production: true
+>>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
 };
