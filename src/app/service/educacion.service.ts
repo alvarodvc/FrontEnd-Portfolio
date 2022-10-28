@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { Educacion } from '../model/educacion';
 
 @Injectable({
@@ -10,7 +11,7 @@ export class EducacionService {
   detail(id: any) {
     throw new Error('Method not implemented.');
   }
-  URL = 'https://bckendalvaro.herokuapp.com/educacion/';
+  URL = environment.URL + 'educacion/';
 
   constructor(private httpClient : HttpClient) { }
 
