@@ -9,4 +9,3 @@
 
 ## 📩 Contacto
 > Ponte en contacto enviando un email a *alvaro.deveze@live.com.ar* o a través de [LinkedIn](https://www.linkedin.com/in/alvaro-deveze/) / [GitHub](https://github.com/alvarodvc)
->>>>>>> 6d48d9cd62ad83a22e57cd7c8c33cdd779c26299
