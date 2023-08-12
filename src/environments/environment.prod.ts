@@ -9,5 +9,5 @@ export const environment = {
     messagingSenderId: '380683179630',
   },
   production: true,
-  URL: 'https://bckendalvaro.herokuapp.com/'
+  URL: 'https://backendportfolio-5mw2.onrender.com/'
 };
